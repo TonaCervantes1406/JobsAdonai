@@ -1,0 +1,58 @@
+/* Añade estilos específicos para el chat */
+.chat-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .messages-container {
+    text-align: left;
+    margin-bottom: 20px;
+    overflow-y: auto; /* Añade desplazamiento vertical en caso de que haya demasiados mensajes */
+    max-height: 200px; /* Ajusta según sea necesario */
+  }
+  
+  .message {
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    max-width: 70%;
+  }
+  
+  .user {
+    background-color: #fcec04;
+    align-self: flex-start;
+  }
+  
+  .persona {
+    background-color: #fff;
+    align-self: flex-end;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .send-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
